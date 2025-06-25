@@ -28,15 +28,15 @@ A lightweight AI micro-agent built with **FastAPI**, **FAISS**, **SentenceTransf
 ---
 
 ## 📁 Project Structure
-
-├── data/ # Folder containing your PDF documents \\
-├── main.py # FastAPI app with endpoints \\
-├── retriever.py # FAISS-based document chunking & search \\
-├── llm_agent.py # LLM prompt creation and streaming \\
-├── db.py # SQLite caching & query logging \\
-├── requirements.txt # Python dependencies \\
-└── .env # API keys and environment variables \\
-
+```plaintext
+├── data/              # Folder containing your PDF documents
+├── main.py            # FastAPI app with endpoints
+├── retriever.py       # FAISS-based document chunking & search
+├── llm_agent.py       # LLM prompt creation and streaming
+├── db.py              # SQLite caching & query logging
+├── requirements.txt   # Python dependencies
+└── .env               # API keys and environment variables
+```
 
 ---
 
