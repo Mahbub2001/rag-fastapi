@@ -3,6 +3,7 @@ uvicorn
 openai
 faiss-cpu
 sentence-transformers
-redis
 pymupdf
 python-dotenv
+sqlalchemy
+aiosqlite
