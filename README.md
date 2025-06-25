@@ -104,28 +104,21 @@ No Redis required — uses SQLite-based caching and logging
 
 🔐 Security
 All model answers are grounded in retrieved documents
-
 Prompts explicitly tell the LLM to avoid hallucinations
 
 Example instruction:
-
 “Only use the following context to answer. Do not make up facts. Always cite the source as [Source: doc_X].”
 
 📦 Models & LLMs
 You can use any OpenRouter-supported model, for example:
-
 qwen/qwen-2.5-coder-32b-instruct:free
-
 mistralai/mixtral-8x7b-instruct
-
 meta-llama/llama-3-70b-instruct
 
 Set the model in llm_agent.py.
 
 🙋‍♂️ Author
 Mahbub Ahmed Turza
-Built as a technical assignment for AI Engineer Intern at Empowering Energy
-Riyadh, Saudi Arabia — Empowering Energy Website
 
 📝 License
 MIT License — free to use, modify, and distribute.
